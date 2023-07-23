@@ -1,0 +1,29 @@
+.visited-country-item {
+  height: 220px;
+  width: 300px;
+  margin: 10px;
+}
+.visited-country-image {
+  height: 80%;
+  width: 100%;
+}
+.visited-country-details {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visited-country-name {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #ffff;
+}
+.remove-button {
+  background-color: transparent;
+  border: 2px solid #ffff;
+  color: #ffff;
+  height: 28px;
+  width: 80px;
+
+  border-radius: 5px;
+}

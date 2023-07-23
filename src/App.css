@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #161624;
+
+  padding: 0px 40px 40px 40px;
+}
+.countries-heading-title {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #f8fafc;
+  padding-top: 30px;
+}
+.countries-visiting-list-container {
+  margin-top: 30px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #334155;
+
+  border-radius: 10px;
+  padding-left: 0px;
+}
+.country-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #334155;
+  padding: 20px;
+}
+.country-name-text {
+  font-family: "Roboto";
+  font-size: 17px;
+  color: #f1f5f9;
+  font-weight: bolder;
+}
+.visit-button {
+  height: 30px;
+  width: 90px;
+  background-color: #3b82f6;
+  color: #fff;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.visited-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  width: 90px;
+  color: #94a3b8;
+  text-align: center;
+}
+.visited-countries-list-container {
+  padding-left: 0px;
+  margin-top: 20px;
+  display: flex;
+  width: 70%;
+  flex-wrap: Wrap;
+}
+.no-countries-visited-text {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
