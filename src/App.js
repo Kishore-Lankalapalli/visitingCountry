@@ -47,5 +47,5 @@ const App = () => {
     </div>
   );
 };
-https://github.com/Kishore-Lankalapalli/visitingCountry.git
+
 export default App;
